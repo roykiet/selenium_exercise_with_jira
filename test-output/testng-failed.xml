@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JiraTest]">
+  <test name="test create update and search jira issue(failed)">
+    <classes>
+      <class name="tests.TestCreateUpdateSearchIssue">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDownTest"/>
+          <include name="test_User_Can_Search_Issue_By_Issue_ID"/>
+          <include name="setupTest"/>
+          <include name="test_User_Can_Update_Issue"/>
+        </methods>
+      </class> <!-- tests.TestCreateUpdateSearchIssue -->
+      <class name="tests.TestCreateUpdateSearchIssueWithPageFactory">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="setup"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- tests.TestCreateUpdateSearchIssueWithPageFactory -->
+    </classes>
+  </test> <!-- test create update and search jira issue(failed) -->
+</suite> <!-- Failed suite [JiraTest] -->
